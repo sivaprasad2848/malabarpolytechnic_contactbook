@@ -26,3 +26,6 @@ def menu():
     return op
 def get_contacts():
     return contacts
+def set_contacts(cdata):
+    global contacts
+    contacts=cdata

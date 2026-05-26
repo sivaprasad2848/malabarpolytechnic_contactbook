@@ -1,6 +1,8 @@
 from helper import *
 from filehandle import *
 y=0
+rdata=read_contact()
+set_contacts(rdata)
 while(y==0):
     opt=menu()
     if(opt==1):
